@@ -3,7 +3,7 @@ import css from 'components/FeedbackOptions/FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
   return (
-    <div className={css.wrap}>
+    <div className={css.buttonsWrap}>
       {options.map(option => (
         <button
           key={option}

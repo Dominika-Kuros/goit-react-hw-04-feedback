@@ -1,0 +1,10 @@
+.buttonsWrap { display: flex;
+    gap:5px;
+    flex-direction: row;}
+
+
+.button {
+   border-radius: 5px;
+   width: 115px;
+   height: 30px;
+}
